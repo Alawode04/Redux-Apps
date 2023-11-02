@@ -1,0 +1,37 @@
+input{
+    width: 500px;
+    padding: 10px;
+    margin-right: 16px;
+    font-size: 16px ;
+    border:1px solid white ;
+    border-radius: 5px;
+}
+
+#addBtn{
+    height: 40px !important;
+    width: 100px !important;
+    margin: 10px;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 10px 0px;
+    padding:  0 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.text{
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.completed{
+    text-decoration: double line-through;
+    color: red !important;
+}
